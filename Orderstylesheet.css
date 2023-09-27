@@ -1,0 +1,241 @@
+body{
+    background-image:url(pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 4000px;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+.parentCont{
+    width: 90%;
+    margin:auto;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px 1px rgb(171, 171, 229);
+    
+}
+.image1{
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.Ordsum{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.Ordsum p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    opacity: 0.3;
+    margin: 1rem;
+}
+
+.Plan{
+    padding: 0.1rem;
+    border-radius: 0.7rem;
+    width: 85%;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+}
+.image2{
+    padding-top: 1rem;
+    margin-left: 1rem;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 4rem;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+li{
+    padding: 0.1rem;
+}
+li.l1{
+    font-weight: bold;
+}
+li.l2{
+    opacity: 0.3;
+}
+.change{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9rem;
+    float: right;
+    margin-top: -3.3rem;
+    margin-right: 1rem;
+}
+.Button{
+    width: 80%;
+    margin: auto;
+    color: white;
+    background-color: rgb(20, 20, 215);
+    text-align: center;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 20px 0px rgb(171, 171, 229);
+    transition: color 2s;
+}
+.Button h3:hover{
+    color: chartreuse;
+
+}
+.Button h3{
+    padding: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+
+
+.Cancel{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.3;
+    text-align: center;
+    padding-bottom: 2rem;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:48em) {
+    .parentCont{
+        width:70%;
+        margin:auto;
+    }
+
+    .Ordsum{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .Ordsum p{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1.5rem;
+        opacity: 0.3;
+        margin: 1rem;
+    }
+
+    .Plan{
+        padding: 0.1rem;
+        border-radius: 0.7rem;
+        width: 85%;
+        margin: auto;
+        background-color: hsl(225, 100%, 98%);
+    }
+    
+    ul{
+        list-style-type: none;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 1.5rem;
+        margin-left: 5rem;
+        padding: 0.5rem;
+    }
+    .image2{
+        padding-top: 2rem;
+        margin-left: 1rem;
+        float: left;
+    }
+    .change{
+        font-size: 1.5rem;
+        float: right;
+        margin-top: -4.8rem;
+        margin-right: 1rem;
+
+    }
+    .Button{
+        width: 80%;
+        margin: auto;
+        color: white;
+        background-color: rgb(20, 20, 215);
+        text-align: center;
+        border-radius: 0.8rem;
+    }
+    .Button h3{
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.8rem;
+    
+    }
+    .Cancel{
+        font-size: 1.5rem;
+        font-weight: bold;
+        opacity: 0.3;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    @media screen and (min-width:80em) {
+        .parentCont{
+            width:30%;
+            margin:auto;
+        }
+
+        .Ordsum{
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+        .Ordsum p{
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 0.8rem;
+            opacity: 0.3;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    
+        .Plan{
+            padding: 0.1rem;
+            border-radius: 0.7rem;
+            width: 85%;
+            margin: auto;
+            background-color: hsl(225, 100%, 98%);
+        }
+        
+        ul{
+            list-style-type: none;
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 1.1rem;
+            margin-left: 5rem;
+            padding: 0.5rem;
+        }
+        .image2{
+            padding-top: 2rem;
+            margin-left: 1rem;
+            float: left;
+        }
+        .change{
+            font-size: 1.1rem;
+            float: right;
+            margin-top: -4.8rem;
+            margin-right: 1rem;
+    
+        }
+        .Button{
+            width: 80%;
+            margin: auto;
+            color: white;
+            background-color: rgb(20, 20, 215);
+            text-align: center;
+            border-radius: 0.8rem;
+        }
+        .Button h3{
+            padding: 0.7rem;
+            text-align: center;
+            font-size: 1.1rem;
+        
+        }
+        .Cancel{
+            font-size: 1.1rem;
+            font-weight: bold;
+            opacity: 0.3;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+    }
