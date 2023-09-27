@@ -170,6 +170,7 @@ li.l2{
         text-align: center;
         padding-bottom: 2rem;
     }
+}
 
     @media screen and (min-width:80em) {
         .parentCont{
@@ -234,8 +235,9 @@ li.l2{
         .Cancel{
             font-size: 1.1rem;
             font-weight: bold;
-            opacity: 0.3;
+            opacity: 0.4;
             text-align: center;
             padding-bottom: 2rem;
         }
     }
+
