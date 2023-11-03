@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
 }
 .parentCont{
-    width: 90%;
+    width: 80%;
     margin:auto;
     background-color:white;
     border-radius: 1rem;
@@ -97,10 +97,22 @@ li.l2{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
+    width: 30%;
+    margin: auto;
     opacity: 0.3;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
     padding-bottom: 2rem;
     cursor: pointer;
+    transition:font-weight 0.3s transform;
+
+}
+.Cancel:hover, .Cancel:focus, .Cancel:active{
+    text-decoration: underline;
+    transform: scale(1.1);
 
 }
 
@@ -233,9 +245,9 @@ li.l2{
         
         }
         .Cancel{
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             font-weight: bold;
-            opacity: 0.4;
+            opacity: 0.3;
             text-align: center;
             padding-bottom: 2rem;
         }
