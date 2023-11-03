@@ -7,8 +7,8 @@ body{
     box-sizing: border-box;
 }
 .parentCont{
-    width: 80%;
     margin:auto;
+    width: 80%;
     background-color:white;
     border-radius: 1rem;
     box-shadow: 0 0 20px 1px rgb(171, 171, 229);
